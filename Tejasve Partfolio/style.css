@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    height: 1000px;
+}
+
+#title-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+#the-title{
+    color: #7562E0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+#the-menu{
+    align-items: center ;
+}
+
+#menu-items{
+    display: flex;
+    padding-top: 25px;
+    padding-right: 10px;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    list-style: none;
+}
+
+#home:hover{
+    color: #7562E0;
+    cursor: pointer;
+
+}
+
+#about-me:hover{
+    color: #7562E0;
+    cursor: pointer;
+
+}
+
+#my-projects:hover{
+    color: #7562E0;
+    cursor: pointer;
+
+}
+
+
+#contact-me:hover{
+    color: #7562E0;
+    cursor: pointer;
+
+}
+
+#content-one{
+    height: 300px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#my-discr{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    
+}
+
+#intro{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#name{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#photo{
+    height:300px;
+    padding-left: 300px;
+}
